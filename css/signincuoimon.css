@@ -1,0 +1,448 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#home{
+	position: relative;
+/*	z-index:1*/
+/*	margin-top: 80px;*/
+}
+.tong{
+	height:100%;
+	overflow-y:scroll;
+	scroll-behavior:smooth;
+	position: relative;
+}
+
+.header{
+    width:100%;
+	height: 80px;
+/*	background:  #C1C1C0;*/
+	background: rgb(0,0,0);
+	background: -webkit-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(64,64,64,1) 50%, rgba(0,0,0,1) 100%);
+	background: -o-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(64,64,64,1) 50%, rgba(0,0,0,1) 100%);
+	background: linear-gradient(to top, rgba(0,0,0,1) 0%, rgba(64,64,64,1) 50%, rgba(0,0,0,1) 100%);
+	background-blur: 0.8;
+	position:fixed;
+/*	right: 14px;*/
+	z-index: 500;
+	opacity:0.9;
+	
+
+	
+}
+.logo{
+	align-items: center;
+	height: 80px;
+	
+	display:flex;
+
+}
+.logo img{
+	width: 100%;
+	
+}
+
+.navbar{
+/*
+	display: flex;
+	justify-content: flex-start;
+*/
+	
+}
+
+.navbar ul{
+	display: flex;
+	list-style: none;
+	
+	
+}
+
+.navbar ul li{
+	margin-left: 2.5%;
+	width: 10%;
+	height: 55px;
+	
+	display:flex;
+	justify-content: center;
+	align-items:center;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+	font-size:10px;
+	font-weight: 500;
+	font-family:head;
+	transition: transform 0.2s
+}
+.navbar ul li a:hover{
+	text-decoration:underline;
+	transform: scale(1.2)
+}
+
+
+@font-face{
+	font-family: head;
+	src:url( "../FONT/UTM Bebas.ttf");
+	
+	
+}
+@font-face{
+	font-family: body;
+	src:url( " ../FONT/SourceSansVariable-Roman.ttf");
+
+}
+p{
+    font-family:body;
+    color:white;
+}
+h1{
+     font-family:head;
+    color:white;
+}
+h2{
+     font-family:head;
+    color:white;
+}
+.banner{
+    height:900px;
+    width:100%;
+    background:  url(     "../IMG/nathan-dumlao-6VhPY27jdps-unsplash.jpg" );
+    box-sizing:border-box;
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:flex;
+    padding-top:100px;
+}
+
+.wellcome h1{
+    font-size:100px;
+    color:white;
+    
+}
+.wellcome p{
+   font-family:body;
+    color:white;
+    
+}
+
+
+    
+
+.wellcome{
+    margin-top:100px;
+    
+}
+h3{
+    font-family:head;
+    color:white;
+    font-size:20px;
+    
+}
+.signin{
+    width:100%;
+    height:500px;
+    background-color: #ffffff05;
+    border-radius: 20px;
+    backdrop-filter:blur(10px);
+    -webkit-backdrop-filter: blur(25px);
+    margin-top:150px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+  
+}
+.khungsignin img{
+    width:100%;
+}
+.signintext h1{
+    font-size:50px;
+    border-bottom: 1px solid white;
+}
+
+.signintext{
+    
+}
+.userpass{
+    width:80%;
+    
+    height:50px;
+}
+.username{
+    width:80%;
+    margin-top:50px;
+    height:auto;
+}
+input{
+    width:100%;
+    height:40px;
+    background: #CCBFA6;
+    background-blur: 0.5;
+    border-radius:10px ;
+    margin-top:10px;
+}
+.dangnhap button{
+    height:40px;
+    width:100%;
+    margin-top:20px;
+    border-radius:10px;
+    background: white;
+    curson: pointer;
+/*    margin-left:35%;*/
+    
+}
+.dangnhap button:hover{
+    background: #CCBFA6;
+    
+}
+.dangnhap button:hover a{
+    color:white;
+}
+.dangnhap{
+    width:30%;
+/*    margin-top:20px;*/
+    justiy-content:center;
+    display:flex;
+    align-items:center;
+}
+
+.dangnhap a{
+    text-decoration:none;
+    color:#CCBFA6;
+     font-family:head;
+    font-size:20px;
+}
+.dangnhap a:hover{
+    color:white;
+    
+}
+
+.icon i{
+    font-size:40px;
+    color:white;
+    margin-top:20px;
+}
+
+.section-5{
+	height:400px;
+	background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(64,64,64,1) 50%, rgba(0,0,0,1) 100%);
+	
+	
+}
+.section-5 h2{
+    color:white;
+    
+}
+
+.section-5 p{
+     color:white;
+}
+.number1{
+    padding-top:80px;
+    height:200px;
+    width:100%;
+    box-sizing:border-box;
+}
+.gioithieu ul a{
+    text-decoration: none;
+   color: white;
+}
+.gioithieu ul a p:hover{
+    
+    color:yellow;
+}
+.hotro ul a p:hover{
+    
+    color:yellow;
+}
+.gioithieu ul{
+    list-style:none;
+    
+}
+.hotro ul{
+    list-style:none;
+}
+.gioithieu ul a li{
+     text-decoration: none;
+    
+}
+.hotro ul a{
+    text-decoration: none;
+   color: white;
+}
+.hotro ul a li{
+     text-decoration: none;
+    
+}
+.mangxahoi i
+{
+	font-size:30px;
+	color: white;
+}
+.mangxahoi i p{
+    font-size: 14px;
+    
+}
+
+.gioithieu ul{
+    line-height: 30px;
+    
+}
+.hotro ul{
+    line-height: 30px;
+    
+}
+p{
+    line-height: 30px;
+}
+
+.input{
+    padding-left:20px;
+    
+}
+.icon ul{
+    list-style:none;
+}
+.icon ul li{
+    float:left;
+    
+    width:75px;
+    height:75px;
+    line-height:75px;
+    margin:0 10px;
+    text-align:center;
+    curson:pointer;
+    border-radius:50%;
+    transition:all 0.5s ease;
+    
+}
+.checkbox{
+    display:flex;
+    margin-top:20px;
+    float:left;
+    width:80%;
+    
+    left:0;
+    align-items:center;
+    height:50px;
+    
+}
+.checkbox input{
+    height:20px;
+    width:20px;
+    background: #AE1D1F;
+    align-items:center;
+}
+.checkbox p{
+    margin-top:12px;
+    margin-left:10px;
+    align-items:center;
+}
+.dangnhap span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.dangnhap span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 5px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.dangnhap:hover span {
+  padding-right: 25px;
+}
+
+.dangnhap:hover span:after {
+  opacity: 1;
+  right: 0;
+    
+   
+}
+.dangnhap {
+  color: #FFFFFF;
+  
+  text-align: center;
+
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+    display:flex;
+    flex-direction:column;
+}
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color:  white ;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.hover-underline-animation-b {
+  display: inline-block;
+  position: relative;
+  
+}
+
+.hover-underline-animation-b:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color:  white ;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation-b:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.or{
+    display:flex;
+    width:100%;
+    flex-direction:row;
+    justify-content:center;
+}
+.or hr {
+    width:100%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
